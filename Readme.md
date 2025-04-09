@@ -19,8 +19,10 @@ BTL_PD/
 ##
 🚀 Getting Started
 1. Clone the Repository
-git clone <your-repo-url>
+```sh
+git clone https://github.com/nguyen2966/XSTK_HK_242.git
 cd BTL_PD
+```
 
 2. Install Dependencies
 Make sure you have Python 3.7 or higher installed. Then install all required libraries:
@@ -44,10 +46,9 @@ python Thong_Ke_Mo_Ta.py
 5. View Results
 All generated plots and charts will be saved in the Chart/ folder automatically.
 ##
-
-##
-📦 Dependencies
+📦 Dependencies: 
 The requirements.txt includes all required libraries:
+```sh
 pandas
 numpy
 matplotlib
@@ -56,6 +57,7 @@ scikit-learn
 statsmodels
 dataframe-image
 scipy
+```
 ##
 
 📊 Output
