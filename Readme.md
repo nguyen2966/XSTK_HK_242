@@ -21,7 +21,7 @@ BTL_PD/
 1. Clone the Repository
 ```sh
 git clone https://github.com/nguyen2966/XSTK_HK_242.git
-cd BTL_PD
+cd XSTK_HK_242
 ```
 
 2. Install Dependencies
@@ -29,21 +29,19 @@ Make sure you have Python 3.7 or higher installed. Then install all required lib
 ```sh
 pip install -r requirements.txt
 ```
-3. Prepare Your Data
-Place your dataset(s) inside the data/ directory. The scripts are configured to load data from that folder.
-
-4. Run the Scripts
+3. Run the Scripts
 Navigate to the src/ directory and run the desired script:
 ```sh
 cd src
 ```
 ```sh
 python KNN_process.py
-python OLS_Regression_Model.py
 python Thong_Ke_Mo_Ta.py
+python 1_and_2_Samples_Test.py
+python Anova_Model.py
+python OLS_Regression_Model.py
 ```
-
-5. View Results
+4. View Results
 All generated plots and charts will be saved in the Chart/ folder automatically.
 ##
 📦 Dependencies: 
