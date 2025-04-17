@@ -35,7 +35,7 @@ cd src
 ```
 ```sh
 python KNN_process.py
-python Thong_Ke_Mo_Ta.py
+python Descriptive_Statistic.py
 python 1_and_2_Samples_Test.py
 python Anova_Model.py
 python OLS_Regression_Model.py
